@@ -834,6 +834,8 @@ footer .bottom .link-footer small:nth-child(1) {
   justify-content: center;
   align-items: center;
   transition: 1s;
+    transition-delay: 3s;
+
 }
 .loading.hide {
   opacity: 0;
