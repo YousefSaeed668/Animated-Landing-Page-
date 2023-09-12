@@ -890,5 +890,5 @@ header,
 .portfolio,
 .clients,
 footer {
-  overflow-x: hidden;
+  display:none;
 }
