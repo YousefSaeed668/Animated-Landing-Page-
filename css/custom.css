@@ -883,12 +883,17 @@ footer .bottom .link-footer small:nth-child(1) {
   }
 }
 
-header,
+/* header,
 .service,
 .whyUs,
 .numbers,
 .portfolio,
 .clients,
 footer {
+  display:none;
+}
+ */
+
+.numbers{
   display:none;
 }
