@@ -41,29 +41,3 @@ links.forEach((link)=>{
   }) 
 })
 
-let sectionOne = document.getElementById("services");
-let sectionTwo = document.getElementById("whyus");
-let sectionThree = document.getElementById("portfolio");
-let sectionfour = document.querySelector(".numbers");
-let iphone = document.querySelector("#whyus .image")
-let content = document.querySelector("#whyus .content")
-
-
-window.onscroll = ()=>{
-
-if (window.scrollY >= sectionOne.offsetTop - 500){
-  sectionOne.classList.remove("to-top")
-}
-
-if (window.scrollY >= sectionTwo.offsetTop - 500){
-  iphone.classList.remove("to-left")
-  content.classList.remove("to-right")
-}
-if (window.scrollY >= sectionfour.offsetTop - 700){
-  sectionfour.classList.remove("too-right")
-}
-if (window.scrollY >= sectionThree.offsetTop - 700){
-  sectionThree.classList.remove("too-left")
-}
-
-}
