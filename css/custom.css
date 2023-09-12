@@ -377,7 +377,7 @@ header {
 .whyUs::before {
   content: "";
   position: absolute;
-  background-image: url(images/style.svg);
+  background-image: url(../images/style.svg);
   width: 535px; /*  710 */
   height: 535px; /*  710 */
   background-repeat: no-repeat;
@@ -530,7 +530,7 @@ header {
 .portfolio::after {
   content: "";
   position: absolute;
-  background-image: url(images/style.svg);
+  background-image: url(../images/style.svg);
   width: 535px; /*  710 */
   height: 535px; /*  710 */
   background-repeat: no-repeat;
@@ -834,8 +834,7 @@ footer .bottom .link-footer small:nth-child(1) {
   justify-content: center;
   align-items: center;
   transition: 1s;
-    transition-delay: 3s;
-
+  transition-delay: 3s;
 }
 .loading.hide {
   opacity: 0;
