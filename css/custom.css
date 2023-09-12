@@ -888,12 +888,10 @@ footer .bottom .link-footer small:nth-child(1) {
 .whyUs,
 .numbers,
 .portfolio,
-.clients,
-footer {
-  display:none;
-}
- */
+.clients{
+  overflow-x: hidden;
+} */
 
-.numbers{
-  display:none;
+.numbers {
+  display: none;
 }
