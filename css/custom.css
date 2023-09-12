@@ -6,11 +6,11 @@
   --primaryColor: #0d13d7;
   --colorP: #707070;
   scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f9f9ff;
-  overflow-x: hidden;
 }
 header {
   position: fixed;
