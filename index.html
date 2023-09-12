@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/fremwork.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header id="header">
@@ -94,7 +95,7 @@
       </svg>
     </section>
 
-    <section id="services" class="p-tb7 service ">
+    <section id="services" class="p-tb7 service" data-aos="fade-up">
       <div class="container">
         <div class="head text-center">
           <h2>We provide various kind of service for you</h2>
@@ -144,10 +145,10 @@
           </p>
         </div>
         <div class="grid-2 d-grid align-items-center">
-          <div class="image">
+          <div class="image" data-aos="fade-left">
             <img src="images/iPhoneLight.png" alt="" />
           </div>
-          <div class="content">
+          <div class="content" data-aos="fade-left">
             <h3>Built The App That Everyone Love.</h3>
             <p>
               It Is A Long Established Fact That A Reader Will Be Distracted By
@@ -168,7 +169,7 @@
       </div>
     </section>
 
-    <section class="p-tb7 numbers">
+    <section class="p-tb7 numbers" data-aos="fade-down-right">
       <div class="container">
         <div class="head text-center">
           <h2>We Completed 1200+ Projects Yearly Successfully & Counting</h2>
@@ -222,7 +223,7 @@
       </div>
     </section>
 
-    <section id="portfolio" class="p-tb7 portfolio">  
+    <section id="portfolio" class="p-tb7 portfolio" data-aos="fade-down-left">  
       <div class="container">
         <div class="head text-center">
           <h2>Our Portfolio</h2>
@@ -249,7 +250,7 @@
       </div>
     </section>
 
-    <section id="clients" class="p-tb7 clients">
+    <section id="clients" class="p-tb7 clients" data-aos="flip-up">
       <div class="container">
         <div class="d-flex align-items-center justify-content-between">
           <div class="head">
@@ -374,6 +375,10 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
