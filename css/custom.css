@@ -311,7 +311,7 @@ header {
   color: var(--colorP);
 }
 .service {
-  transition: 1s ease-in;
+  transition: 1s !important;
 }
 .service .item {
   box-shadow: 0 50px 76px rgb(0 0 0 / 10%);
