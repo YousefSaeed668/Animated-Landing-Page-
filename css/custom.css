@@ -882,3 +882,13 @@ footer .bottom .link-footer small:nth-child(1) {
     height: 10px;
   }
 }
+
+header,
+.service,
+.whyUs,
+.numbers,
+.portfolio,
+.clients,
+footer {
+  overflow-x: hidden;
+}
